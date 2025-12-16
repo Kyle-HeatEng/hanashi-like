@@ -1,0 +1,26 @@
+import wordsData from './words.json'
+import type { Word } from '../types'
+
+export const words: Word[] = wordsData as Word[]
+
+export function getWordById(id: string): Word | undefined {
+  return words.find((word) => word.id === id)
+}
+
+export function getRandomWord(): Word {
+  const randomIndex = Math.floor(Math.random() * words.length)
+  return words[randomIndex]
+}
+
+export function getRandomWords(count: number, excludeId?: string): Word[] {
+  const availableWords = excludeId
+    ? words.filter((word) => word.id !== excludeId)
+    : words
+  const shuffled = [...availableWords].sort(() => Math.random() - 0.5)
+  return shuffled.slice(0, count)
+}
+
+export function getAllWords(): Word[] {
+  return words
+}
+

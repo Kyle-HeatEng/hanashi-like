@@ -1,0 +1,383 @@
+[
+  {
+    "id": "4b27ff77-0f9d-4df8-bd58-ad93fcf937a7",
+    "hiragana": [
+      "こ",
+      "ん",
+      "に",
+      "ち",
+      "は"
+    ],
+    "romaji": "konnichiwa",
+    "japanese": "こんにちは",
+    "audioUri": "4b27ff77-0f9d-4df8-bd58-ad93fcf937a7.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "ba31eac9-80e5-4abe-b83b-f467d25914de",
+    "hiragana": [
+      "あ",
+      "り",
+      "が",
+      "と",
+      "う"
+    ],
+    "romaji": "arigatou",
+    "japanese": "ありがとう",
+    "audioUri": "ba31eac9-80e5-4abe-b83b-f467d25914de.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "5d0acd9e-15f1-425c-8435-13dcc4fbd6c6",
+    "hiragana": [
+      "お",
+      "は",
+      "よ",
+      "う"
+    ],
+    "romaji": "ohayou",
+    "japanese": "おはよう",
+    "audioUri": "5d0acd9e-15f1-425c-8435-13dcc4fbd6c6.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "53bc6be7-a26c-43b2-af7a-956b1b430850",
+    "hiragana": [
+      "さ",
+      "よ",
+      "う",
+      "な",
+      "ら"
+    ],
+    "romaji": "sayounara",
+    "japanese": "さようなら",
+    "audioUri": "53bc6be7-a26c-43b2-af7a-956b1b430850.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "eb59c21c-c616-4a9b-a042-1e4896684dbb",
+    "hiragana": [
+      "す",
+      "み",
+      "ま",
+      "せ",
+      "ん"
+    ],
+    "romaji": "sumimasen",
+    "japanese": "すみません",
+    "audioUri": "eb59c21c-c616-4a9b-a042-1e4896684dbb.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "fdfb77d1-1d75-42f1-bfe8-a9acbf7c6acf",
+    "hiragana": [
+      "ご",
+      "め",
+      "ん",
+      "な",
+      "さ",
+      "い"
+    ],
+    "romaji": "gomennasai",
+    "japanese": "ごめんなさい",
+    "audioUri": "fdfb77d1-1d75-42f1-bfe8-a9acbf7c6acf.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "aed7c5ae-6247-416d-a560-1d2d59357fff",
+    "hiragana": [
+      "い",
+      "た",
+      "だ",
+      "き",
+      "ま",
+      "す"
+    ],
+    "romaji": "itadakimasu",
+    "japanese": "いただきます",
+    "audioUri": "aed7c5ae-6247-416d-a560-1d2d59357fff.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "9a6180c6-a032-44fe-abf8-0ee70c0112d3",
+    "hiragana": [
+      "ご",
+      "ち",
+      "そ",
+      "う",
+      "さ",
+      "ま"
+    ],
+    "romaji": "gochisousama",
+    "japanese": "ごちそうさま",
+    "audioUri": "9a6180c6-a032-44fe-abf8-0ee70c0112d3.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "9648bd77-fa94-4eab-9c94-08f9a2362678",
+    "hiragana": [
+      "お",
+      "ね",
+      "が",
+      "い"
+    ],
+    "romaji": "onegai",
+    "japanese": "おねがい",
+    "audioUri": "9648bd77-fa94-4eab-9c94-08f9a2362678.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "684904a8-df7e-4818-94b1-3f0f04188c82",
+    "hiragana": [
+      "ど",
+      "う",
+      "い",
+      "た",
+      "し",
+      "ま",
+      "し",
+      "て"
+    ],
+    "romaji": "douitashimashite",
+    "japanese": "どういたしまして",
+    "audioUri": "684904a8-df7e-4818-94b1-3f0f04188c82.mp3",
+    "difficulty": 3
+  },
+  {
+    "id": "9124f674-dba8-470e-b64f-5149548ffdb1",
+    "hiragana": [
+      "な",
+      "ま",
+      "え"
+    ],
+    "romaji": "namae",
+    "japanese": "なまえ",
+    "audioUri": "9124f674-dba8-470e-b64f-5149548ffdb1.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "93f43998-aa3a-460f-a40e-ad2c0b5be4a7",
+    "hiragana": [
+      "わ",
+      "た",
+      "し"
+    ],
+    "romaji": "watashi",
+    "japanese": "わたし",
+    "audioUri": "93f43998-aa3a-460f-a40e-ad2c0b5be4a7.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "f60222e2-09cb-403f-95fc-f988d322a337",
+    "hiragana": [
+      "あ",
+      "な",
+      "た"
+    ],
+    "romaji": "anata",
+    "japanese": "あなた",
+    "audioUri": "f60222e2-09cb-403f-95fc-f988d322a337.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "ed93da65-a356-489b-b822-f71f5ae55322",
+    "hiragana": [
+      "に",
+      "ほ",
+      "ん"
+    ],
+    "romaji": "nihon",
+    "japanese": "にほん",
+    "audioUri": "ed93da65-a356-489b-b822-f71f5ae55322.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "b681d9ee-3a3c-4513-b219-4d58bb93803f",
+    "hiragana": [
+      "が",
+      "っ",
+      "こ",
+      "う"
+    ],
+    "romaji": "gakkou",
+    "japanese": "がっこう",
+    "audioUri": "b681d9ee-3a3c-4513-b219-4d58bb93803f.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "b104a968-2e81-4ee7-8535-9887bc3f2ab9",
+    "hiragana": [
+      "と",
+      "も",
+      "だ",
+      "ち"
+    ],
+    "romaji": "tomodachi",
+    "japanese": "ともだち",
+    "audioUri": "b104a968-2e81-4ee7-8535-9887bc3f2ab9.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "a4f386d1-dc3f-46c0-bcb9-0000175225b4",
+    "hiragana": [
+      "い",
+      "え"
+    ],
+    "romaji": "ie",
+    "japanese": "いえ",
+    "audioUri": "a4f386d1-dc3f-46c0-bcb9-0000175225b4.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "60becab9-dbf3-42b7-8ec6-74b4a8e2d5f6",
+    "hiragana": [
+      "た",
+      "べ",
+      "も",
+      "の"
+    ],
+    "romaji": "tabemono",
+    "japanese": "たべもの",
+    "audioUri": "60becab9-dbf3-42b7-8ec6-74b4a8e2d5f6.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "6b318ae1-70ee-428a-a3b1-ae5d3c2ee98a",
+    "hiragana": [
+      "み",
+      "ず"
+    ],
+    "romaji": "mizu",
+    "japanese": "みず",
+    "audioUri": "6b318ae1-70ee-428a-a3b1-ae5d3c2ee98a.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "7bbe1eb1-9869-44ae-926c-fa19511b6754",
+    "hiragana": [
+      "ほ",
+      "ん"
+    ],
+    "romaji": "hon",
+    "japanese": "ほん",
+    "audioUri": "7bbe1eb1-9869-44ae-926c-fa19511b6754.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "d2cdd4e8-0d1d-4ff6-9941-6f8461ea0748",
+    "hiragana": [
+      "く",
+      "る",
+      "ま"
+    ],
+    "romaji": "kuruma",
+    "japanese": "くるま",
+    "audioUri": "d2cdd4e8-0d1d-4ff6-9941-6f8461ea0748.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "88125eb8-bc33-495c-82c4-3488f0a971ac",
+    "hiragana": [
+      "ね",
+      "こ"
+    ],
+    "romaji": "neko",
+    "japanese": "ねこ",
+    "audioUri": "88125eb8-bc33-495c-82c4-3488f0a971ac.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "90df5914-88c6-4f6a-87cb-6ff474ecc974",
+    "hiragana": [
+      "い",
+      "ぬ"
+    ],
+    "romaji": "inu",
+    "japanese": "いぬ",
+    "audioUri": "90df5914-88c6-4f6a-87cb-6ff474ecc974.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "84068363-936f-4e44-b609-6fa0cb90d7a5",
+    "hiragana": [
+      "さ",
+      "く",
+      "ら"
+    ],
+    "romaji": "sakura",
+    "japanese": "さくら",
+    "audioUri": "84068363-936f-4e44-b609-6fa0cb90d7a5.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "91d197d7-a084-4b16-a9bb-0f310de6d1d7",
+    "hiragana": [
+      "ゆ",
+      "き"
+    ],
+    "romaji": "yuki",
+    "japanese": "ゆき",
+    "audioUri": "91d197d7-a084-4b16-a9bb-0f310de6d1d7.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "0677f1b2-4330-4325-a9ff-31a0d0cbaf82",
+    "hiragana": [
+      "あ",
+      "め"
+    ],
+    "romaji": "ame",
+    "japanese": "あめ",
+    "audioUri": "0677f1b2-4330-4325-a9ff-31a0d0cbaf82.mp3",
+    "difficulty": 1
+  },
+  {
+    "id": "57b9ec9e-db73-4dad-9e19-5978a5b52e98",
+    "hiragana": [
+      "て",
+      "ん",
+      "き"
+    ],
+    "romaji": "tenki",
+    "japanese": "てんき",
+    "audioUri": "57b9ec9e-db73-4dad-9e19-5978a5b52e98.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "4d25ef37-1bc3-4b54-a7d3-bd2f4b59e5e4",
+    "hiragana": [
+      "や",
+      "す",
+      "み"
+    ],
+    "romaji": "yasumi",
+    "japanese": "やすみ",
+    "audioUri": "4d25ef37-1bc3-4b54-a7d3-bd2f4b59e5e4.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "10b9d59c-620f-4b83-9b06-4ef9e2e6ff1c",
+    "hiragana": [
+      "べ",
+      "ん",
+      "きょ",
+      "う"
+    ],
+    "romaji": "benkyou",
+    "japanese": "べんきょう",
+    "audioUri": "10b9d59c-620f-4b83-9b06-4ef9e2e6ff1c.mp3",
+    "difficulty": 2
+  },
+  {
+    "id": "eefe7a29-7210-424e-8a98-77478ae5ad45",
+    "hiragana": [
+      "し",
+      "ご",
+      "と"
+    ],
+    "romaji": "shigoto",
+    "japanese": "しごと",
+    "audioUri": "eefe7a29-7210-424e-8a98-77478ae5ad45.mp3",
+    "difficulty": 2
+  }
+]

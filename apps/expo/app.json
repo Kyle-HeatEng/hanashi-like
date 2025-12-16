@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "solito-blank",
+    "slug": "solito-blank",
+    "version": "1.0.0",
+    "scheme": "solito-blank",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.solito.blank",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to microphone for audio playback."
+      }
+    },
+    "android": {
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "newArchEnabled": true,
+    "experiments": {
+      "reactCanary": true
+    }
+  }
+}
