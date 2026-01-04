@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 import { generateTTSAudio } from '../services/tts'
 import { readWordsJson, writeWordsJson, saveAudioFiles, regenerateAudioAssets } from '../services/files'
-import type { Word } from '../../../packages/app/features/game/types'
+import type { Word } from '../../../app/features/puzzles/types'
 
 interface AddWordOptions {
   romaji: string

@@ -28,3 +28,21 @@ export function getAllWords(): Word[] {
   return words
 }
 
+export function getWordsWithSimilar(): Word[] {
+  return words.filter((word) => word.similar && word.similar.length > 0)
+}
+
+export function getRandomWordWithSimilar(): Word {
+  const wordsWithSimilar = getWordsWithSimilar()
+  if (wordsWithSimilar.length === 0) {
+    throw new Error('No words with similar-sounding words available')
+  }
+  const randomIndex = Math.floor(Math.random() * wordsWithSimilar.length)
+  const word = wordsWithSimilar[randomIndex]
+  if (!word) {
+    throw new Error('Failed to get random word with similar')
+  }
+  return word
+}
+
+

@@ -18,7 +18,7 @@ if (!existsSync(join(MONOREPO_ROOT, 'package.json'))) {
 
 export const PATHS = {
   MONOREPO_ROOT,
-  WORDS_JSON: join(MONOREPO_ROOT, 'packages/app/features/game/data/words.json'),
+  WORDS_JSON: join(MONOREPO_ROOT, 'packages/app/features/puzzles/data/words.json'),
   EXPO_AUDIO_DIR: join(MONOREPO_ROOT, 'apps/expo/assets/audio'),
   NEXT_AUDIO_DIR: join(MONOREPO_ROOT, 'apps/next/public/audio'),
   EXPO_AUDIO_ASSETS: join(MONOREPO_ROOT, 'apps/expo/audio-assets.ts'),

@@ -4,7 +4,6 @@ import { Command } from 'commander'
 import { config } from 'dotenv'
 import { addWord } from './commands/add'
 import { migrateWords } from './commands/migrate'
-import { regenerateAudio } from './commands/regenerate'
 import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
@@ -52,11 +51,33 @@ program
 
 program
   .command('regenerate')
-  .description('Regenerate audio for a specific word by ID')
-  .requiredOption('--id <id>', 'Word ID (UUID)')
+  .description('Regenerate audio for specific word(s)')
+  .option('--id <id>', 'Word ID (UUID) - regenerate a single word')
+  .option('--all', 'Regenerate audio for all words')
+  .option('--length-trap', 'Regenerate audio for all length-trap puzzle words only')
   .action(async (options) => {
     try {
-      await regenerateAudio(options.id)
+      // Validate that only one option is provided
+      const optionsCount = [options.id, options.all, options.lengthTrap].filter(Boolean).length
+      if (optionsCount === 0) {
+        console.error('Error: Please provide --id, --all, or --length-trap option')
+        process.exit(1)
+      }
+      if (optionsCount > 1) {
+        console.error('Error: Please provide only one option: --id, --all, or --length-trap')
+        process.exit(1)
+      }
+
+      if (options.id) {
+        const { regenerateAudio } = await import('./commands/regenerate.js')
+        await regenerateAudio(options.id)
+      } else if (options.lengthTrap) {
+        const { regenerateAllAudio } = await import('./commands/regenerate.js')
+        await regenerateAllAudio('length-trap')
+      } else if (options.all) {
+        const { regenerateAllAudio } = await import('./commands/regenerate.js')
+        await regenerateAllAudio('all')
+      }
     } catch (error) {
       console.error('Error:', error instanceof Error ? error.message : String(error))
       process.exit(1)

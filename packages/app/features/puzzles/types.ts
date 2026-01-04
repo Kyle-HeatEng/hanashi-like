@@ -1,3 +1,5 @@
+export type PuzzleType = 'audio' | 'length-trap'
+
 export type Word = {
   id: string
   hiragana: string[]
@@ -5,6 +7,7 @@ export type Word = {
   japanese: string
   audioUri: string
   difficulty: number
+  similar?: string[]
 }
 
 export type RunState = {
@@ -13,5 +16,7 @@ export type RunState = {
   coins: number
   hp: number
   currentWord: Word | null
+  puzzleSequence: PuzzleType[]
+  currentPuzzleType: PuzzleType | null
 }
 

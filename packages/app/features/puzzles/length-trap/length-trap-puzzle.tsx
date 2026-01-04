@@ -4,11 +4,11 @@ import { BlurView } from 'expo-blur'
 import { LinearGradient } from 'expo-linear-gradient'
 import { MotiView } from 'moti'
 import type { Word } from '../types'
-import { getRandomWords } from '../data'
+import { getWordById } from '../data'
 import { AudioButton } from '../shared/components/audio-button'
 import { theme } from '../theme'
 
-interface AudioPuzzleProps {
+interface LengthTrapPuzzleProps {
   word: Word
   onCorrect: () => void
   onWrong: () => void
@@ -19,17 +19,23 @@ const GRID_PADDING = theme.spacing.lg * 2 // Total horizontal padding
 const GAP = theme.spacing.md
 const BUTTON_WIDTH = (screenWidth - GRID_PADDING - GAP) / 2 // 2 columns with gap
 
-export function AudioPuzzle({ word, onCorrect, onWrong }: AudioPuzzleProps) {
+export function LengthTrapPuzzle({ word, onCorrect, onWrong }: LengthTrapPuzzleProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [hasSubmitted, setHasSubmitted] = useState(false)
 
-  // Generate 5 random distractors
-  const distractors = getRandomWords(5, word.id)
-  
-  // Create options: correct answer + 5 distractors
+  // Get the similar word from the word's similar array
+  const similarWordId = word.similar?.[0]
+  const similarWord = similarWordId ? getWordById(similarWordId) : null
+
+  if (!similarWord) {
+    console.error('No similar word found for length-trap puzzle')
+    return null
+  }
+
+  // Create options: correct answer + similar word
   const allOptions = [
     { id: word.id, hiragana: word.hiragana },
-    ...distractors.map((w) => ({ id: w.id, hiragana: w.hiragana })),
+    { id: similarWord.id, hiragana: similarWord.hiragana },
   ].sort(() => Math.random() - 0.5) // Shuffle
 
   const handleSelect = (optionId: string) => {
@@ -63,7 +69,7 @@ export function AudioPuzzle({ word, onCorrect, onWrong }: AudioPuzzleProps) {
       <BlurView intensity={15} tint="light" style={styles.instructionCard}>
         <View style={styles.instructionOverlay} />
         <View style={styles.instructionBorder} />
-        <Text style={styles.instruction}>Listen to the audio and select the correct hiragana:</Text>
+        <Text style={styles.instruction}>Listen carefully and choose the correct word:</Text>
         <View style={styles.audioButtonContainer}>
           <AudioButton audioUri={word.audioUri} label="🔊" />
         </View>
