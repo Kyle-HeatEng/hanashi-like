@@ -379,5 +379,1349 @@
     "japanese": "しごと",
     "audioUri": "eefe7a29-7210-424e-8a98-77478ae5ad45.mp3",
     "difficulty": 2
+  },
+  {
+    "id": "lt-pair-01-a",
+    "hiragana": [
+      "こ",
+      "う",
+      "こ",
+      "う"
+    ],
+    "romaji": "koukou",
+    "japanese": "こうこう",
+    "audioUri": "lt-pair-01-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-01-b"]
+  },
+  {
+    "id": "lt-pair-01-b",
+    "hiragana": [
+      "こ",
+      "こ",
+      "う"
+    ],
+    "romaji": "kokou",
+    "japanese": "ここう",
+    "audioUri": "lt-pair-01-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-01-a"]
+  },
+  {
+    "id": "lt-pair-02-a",
+    "hiragana": [
+      "お",
+      "ば",
+      "さ",
+      "ん"
+    ],
+    "romaji": "obasan",
+    "japanese": "おばさん",
+    "audioUri": "lt-pair-02-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-02-b"]
+  },
+  {
+    "id": "lt-pair-02-b",
+    "hiragana": [
+      "お",
+      "ば",
+      "あ",
+      "さ",
+      "ん"
+    ],
+    "romaji": "obaasan",
+    "japanese": "おばあさん",
+    "audioUri": "lt-pair-02-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-02-a"]
+  },
+  {
+    "id": "lt-pair-03-a",
+    "hiragana": [
+      "お",
+      "じ",
+      "さ",
+      "ん"
+    ],
+    "romaji": "ojisan",
+    "japanese": "おじさん",
+    "audioUri": "lt-pair-03-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-03-b"]
+  },
+  {
+    "id": "lt-pair-03-b",
+    "hiragana": [
+      "お",
+      "じ",
+      "い",
+      "さ",
+      "ん"
+    ],
+    "romaji": "ojiisan",
+    "japanese": "おじいさん",
+    "audioUri": "lt-pair-03-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-03-a"]
+  },
+  {
+    "id": "lt-pair-04-a",
+    "hiragana": [
+      "き",
+      "っ",
+      "て"
+    ],
+    "romaji": "kitte",
+    "japanese": "きって",
+    "audioUri": "lt-pair-04-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-04-b"]
+  },
+  {
+    "id": "lt-pair-04-b",
+    "hiragana": [
+      "き",
+      "い",
+      "て"
+    ],
+    "romaji": "kiite",
+    "japanese": "きいて",
+    "audioUri": "lt-pair-04-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-04-a"]
+  },
+  {
+    "id": "lt-pair-05-a",
+    "hiragana": [
+      "か",
+      "こ"
+    ],
+    "romaji": "kako",
+    "japanese": "かこ",
+    "audioUri": "lt-pair-05-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-05-b"]
+  },
+  {
+    "id": "lt-pair-05-b",
+    "hiragana": [
+      "か",
+      "こ",
+      "う"
+    ],
+    "romaji": "kakou",
+    "japanese": "かこう",
+    "audioUri": "lt-pair-05-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-05-a"]
+  },
+  {
+    "id": "lt-pair-06-a",
+    "hiragana": [
+      "い",
+      "っ",
+      "た"
+    ],
+    "romaji": "itta",
+    "japanese": "いった",
+    "audioUri": "lt-pair-06-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-06-b"]
+  },
+  {
+    "id": "lt-pair-06-b",
+    "hiragana": [
+      "い",
+      "た"
+    ],
+    "romaji": "ita",
+    "japanese": "いた",
+    "audioUri": "lt-pair-06-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-06-a"]
+  },
+  {
+    "id": "lt-pair-07-a",
+    "hiragana": [
+      "か",
+      "き"
+    ],
+    "romaji": "kaki",
+    "japanese": "かき",
+    "audioUri": "lt-pair-07-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-07-b"]
+  },
+  {
+    "id": "lt-pair-07-b",
+    "hiragana": [
+      "か",
+      "き"
+    ],
+    "romaji": "kagi",
+    "japanese": "かぎ",
+    "audioUri": "lt-pair-07-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-07-a"]
+  },
+  {
+    "id": "lt-pair-08-a",
+    "hiragana": [
+      "さ",
+      "か",
+      "な"
+    ],
+    "romaji": "sakana",
+    "japanese": "さかな",
+    "audioUri": "lt-pair-08-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-08-b"]
+  },
+  {
+    "id": "lt-pair-08-b",
+    "hiragana": [
+      "さ",
+      "が",
+      "な"
+    ],
+    "romaji": "sagana",
+    "japanese": "さがな",
+    "audioUri": "lt-pair-08-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-08-a"]
+  },
+  {
+    "id": "lt-pair-09-a",
+    "hiragana": [
+      "は",
+      "し"
+    ],
+    "romaji": "hashi",
+    "japanese": "はし",
+    "audioUri": "lt-pair-09-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-09-b"]
+  },
+  {
+    "id": "lt-pair-09-b",
+    "hiragana": [
+      "は",
+      "じ"
+    ],
+    "romaji": "haji",
+    "japanese": "はじ",
+    "audioUri": "lt-pair-09-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-09-a"]
+  },
+  {
+    "id": "lt-pair-10-a",
+    "hiragana": [
+      "か",
+      "さ"
+    ],
+    "romaji": "kasa",
+    "japanese": "かさ",
+    "audioUri": "lt-pair-10-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-10-b"]
+  },
+  {
+    "id": "lt-pair-10-b",
+    "hiragana": [
+      "か",
+      "ざ"
+    ],
+    "romaji": "kaza",
+    "japanese": "かざ",
+    "audioUri": "lt-pair-10-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-10-a"]
+  },
+  {
+    "id": "lt-pair-11-a",
+    "hiragana": [
+      "き",
+      "た"
+    ],
+    "romaji": "kita",
+    "japanese": "きた",
+    "audioUri": "lt-pair-11-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-11-b"]
+  },
+  {
+    "id": "lt-pair-11-b",
+    "hiragana": [
+      "き",
+      "だ"
+    ],
+    "romaji": "kida",
+    "japanese": "きだ",
+    "audioUri": "lt-pair-11-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-11-a"]
+  },
+  {
+    "id": "lt-pair-12-a",
+    "hiragana": [
+      "ち",
+      "ず"
+    ],
+    "romaji": "chizu",
+    "japanese": "ちず",
+    "audioUri": "lt-pair-12-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-12-b"]
+  },
+  {
+    "id": "lt-pair-12-b",
+    "hiragana": [
+      "ち",
+      "づ"
+    ],
+    "romaji": "chidzu",
+    "japanese": "ちづ",
+    "audioUri": "lt-pair-12-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-12-a"]
+  },
+  {
+    "id": "lt-pair-13-a",
+    "hiragana": [
+      "そ",
+      "う"
+    ],
+    "romaji": "sou",
+    "japanese": "そう",
+    "audioUri": "lt-pair-13-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-13-b"]
+  },
+  {
+    "id": "lt-pair-13-b",
+    "hiragana": [
+      "そ",
+      "お"
+    ],
+    "romaji": "soo",
+    "japanese": "そお",
+    "audioUri": "lt-pair-13-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-13-a"]
+  },
+  {
+    "id": "lt-pair-14-a",
+    "hiragana": [
+      "と",
+      "お",
+      "り"
+    ],
+    "romaji": "toori",
+    "japanese": "とおり",
+    "audioUri": "lt-pair-14-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-14-b"]
+  },
+  {
+    "id": "lt-pair-14-b",
+    "hiragana": [
+      "と",
+      "り"
+    ],
+    "romaji": "tori",
+    "japanese": "とり",
+    "audioUri": "lt-pair-14-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-14-a"]
+  },
+  {
+    "id": "lt-pair-15-a",
+    "hiragana": [
+      "お",
+      "と",
+      "う",
+      "と"
+    ],
+    "romaji": "otouto",
+    "japanese": "おとうと",
+    "audioUri": "lt-pair-15-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-15-b"]
+  },
+  {
+    "id": "lt-pair-15-b",
+    "hiragana": [
+      "お",
+      "と",
+      "と"
+    ],
+    "romaji": "ototo",
+    "japanese": "おとと",
+    "audioUri": "lt-pair-15-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-15-a"]
+  },
+  {
+    "id": "lt-pair-16-a",
+    "hiragana": [
+      "お",
+      "ね",
+      "え",
+      "さ",
+      "ん"
+    ],
+    "romaji": "oneesan",
+    "japanese": "おねえさん",
+    "audioUri": "lt-pair-16-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-16-b"]
+  },
+  {
+    "id": "lt-pair-16-b",
+    "hiragana": [
+      "お",
+      "ね",
+      "さ",
+      "ん"
+    ],
+    "romaji": "onesan",
+    "japanese": "おねさん",
+    "audioUri": "lt-pair-16-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-16-a"]
+  },
+  {
+    "id": "lt-pair-17-a",
+    "hiragana": [
+      "お",
+      "に",
+      "い",
+      "さ",
+      "ん"
+    ],
+    "romaji": "oniisan",
+    "japanese": "おにいさん",
+    "audioUri": "lt-pair-17-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-17-b"]
+  },
+  {
+    "id": "lt-pair-17-b",
+    "hiragana": [
+      "お",
+      "に",
+      "さ",
+      "ん"
+    ],
+    "romaji": "onisan",
+    "japanese": "おにさん",
+    "audioUri": "lt-pair-17-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-17-a"]
+  },
+  {
+    "id": "lt-pair-18-a",
+    "hiragana": [
+      "び",
+      "よ",
+      "う",
+      "い",
+      "ん"
+    ],
+    "romaji": "byouin",
+    "japanese": "びょういん",
+    "audioUri": "lt-pair-18-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-18-b"]
+  },
+  {
+    "id": "lt-pair-18-b",
+    "hiragana": [
+      "び",
+      "よ",
+      "い",
+      "ん"
+    ],
+    "romaji": "biyoin",
+    "japanese": "びよいん",
+    "audioUri": "lt-pair-18-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-18-a"]
+  },
+  {
+    "id": "lt-pair-19-a",
+    "hiragana": [
+      "き",
+      "ょ",
+      "う"
+    ],
+    "romaji": "kyou",
+    "japanese": "きょう",
+    "audioUri": "lt-pair-19-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-19-b"]
+  },
+  {
+    "id": "lt-pair-19-b",
+    "hiragana": [
+      "き",
+      "よ",
+      "う"
+    ],
+    "romaji": "kiyou",
+    "japanese": "きよう",
+    "audioUri": "lt-pair-19-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-19-a"]
+  },
+  {
+    "id": "lt-pair-20-a",
+    "hiragana": [
+      "り",
+      "ょ",
+      "う",
+      "り"
+    ],
+    "romaji": "ryouri",
+    "japanese": "りょうり",
+    "audioUri": "lt-pair-20-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-20-b"]
+  },
+  {
+    "id": "lt-pair-20-b",
+    "hiragana": [
+      "り",
+      "よ",
+      "う",
+      "り"
+    ],
+    "romaji": "riyouri",
+    "japanese": "りようり",
+    "audioUri": "lt-pair-20-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-20-a"]
+  },
+  {
+    "id": "lt-pair-21-a",
+    "hiragana": [
+      "し",
+      "ょ",
+      "う",
+      "が",
+      "っ",
+      "こ",
+      "う"
+    ],
+    "romaji": "shougakkou",
+    "japanese": "しょうがっこう",
+    "audioUri": "lt-pair-21-a.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-21-b"]
+  },
+  {
+    "id": "lt-pair-21-b",
+    "hiragana": [
+      "し",
+      "よ",
+      "う",
+      "が",
+      "っ",
+      "こ",
+      "う"
+    ],
+    "romaji": "shiyougakkou",
+    "japanese": "しようがっこう",
+    "audioUri": "lt-pair-21-b.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-21-a"]
+  },
+  {
+    "id": "lt-pair-22-a",
+    "hiragana": [
+      "ち",
+      "ゅ",
+      "う",
+      "が",
+      "っ",
+      "こ",
+      "う"
+    ],
+    "romaji": "chuugakkou",
+    "japanese": "ちゅうがっこう",
+    "audioUri": "lt-pair-22-a.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-22-b"]
+  },
+  {
+    "id": "lt-pair-22-b",
+    "hiragana": [
+      "ち",
+      "ゆ",
+      "う",
+      "が",
+      "っ",
+      "こ",
+      "う"
+    ],
+    "romaji": "chiyuugakkou",
+    "japanese": "ちゆうがっこう",
+    "audioUri": "lt-pair-22-b.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-22-a"]
+  },
+  {
+    "id": "lt-pair-23-a",
+    "hiragana": [
+      "ぎ",
+      "ゅ",
+      "う",
+      "に",
+      "ゅ",
+      "う"
+    ],
+    "romaji": "gyuunyuu",
+    "japanese": "ぎゅうにゅう",
+    "audioUri": "lt-pair-23-a.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-23-b"]
+  },
+  {
+    "id": "lt-pair-23-b",
+    "hiragana": [
+      "ぎ",
+      "ゆ",
+      "う",
+      "に",
+      "ゆ",
+      "う"
+    ],
+    "romaji": "giyuuniyuu",
+    "japanese": "ぎゆうにゆう",
+    "audioUri": "lt-pair-23-b.mp3",
+    "difficulty": 3,
+    "similar": ["lt-pair-23-a"]
+  },
+  {
+    "id": "lt-pair-24-a",
+    "hiragana": [
+      "じ",
+      "ゅ",
+      "う",
+      "し",
+      "ょ"
+    ],
+    "romaji": "juusho",
+    "japanese": "じゅうしょ",
+    "audioUri": "lt-pair-24-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-24-b"]
+  },
+  {
+    "id": "lt-pair-24-b",
+    "hiragana": [
+      "じ",
+      "ゆ",
+      "う",
+      "し",
+      "よ"
+    ],
+    "romaji": "jiyuushiyo",
+    "japanese": "じゆうしよ",
+    "audioUri": "lt-pair-24-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-24-a"]
+  },
+  {
+    "id": "lt-pair-25-a",
+    "hiragana": [
+      "せ",
+      "ん",
+      "せ",
+      "い"
+    ],
+    "romaji": "sensei",
+    "japanese": "せんせい",
+    "audioUri": "lt-pair-25-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-25-b"]
+  },
+  {
+    "id": "lt-pair-25-b",
+    "hiragana": [
+      "せ",
+      "せ",
+      "い"
+    ],
+    "romaji": "sesei",
+    "japanese": "せせい",
+    "audioUri": "lt-pair-25-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-25-a"]
+  },
+  {
+    "id": "lt-pair-26-a",
+    "hiragana": [
+      "で",
+      "ん",
+      "し",
+      "ゃ"
+    ],
+    "romaji": "densha",
+    "japanese": "でんしゃ",
+    "audioUri": "lt-pair-26-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-26-b"]
+  },
+  {
+    "id": "lt-pair-26-b",
+    "hiragana": [
+      "で",
+      "し",
+      "ゃ"
+    ],
+    "romaji": "desha",
+    "japanese": "でしゃ",
+    "audioUri": "lt-pair-26-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-26-a"]
+  },
+  {
+    "id": "lt-pair-27-a",
+    "hiragana": [
+      "さ",
+      "ん",
+      "ぽ"
+    ],
+    "romaji": "sanpo",
+    "japanese": "さんぽ",
+    "audioUri": "lt-pair-27-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-27-b"]
+  },
+  {
+    "id": "lt-pair-27-b",
+    "hiragana": [
+      "さ",
+      "ぽ"
+    ],
+    "romaji": "sapo",
+    "japanese": "さぽ",
+    "audioUri": "lt-pair-27-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-27-a"]
+  },
+  {
+    "id": "lt-pair-28-a",
+    "hiragana": [
+      "て",
+      "ん",
+      "ぷ",
+      "ら"
+    ],
+    "romaji": "tenpura",
+    "japanese": "てんぷら",
+    "audioUri": "lt-pair-28-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-28-b"]
+  },
+  {
+    "id": "lt-pair-28-b",
+    "hiragana": [
+      "て",
+      "ぷ",
+      "ら"
+    ],
+    "romaji": "tepura",
+    "japanese": "てぷら",
+    "audioUri": "lt-pair-28-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-28-a"]
+  },
+  {
+    "id": "lt-pair-29-a",
+    "hiragana": [
+      "れ",
+      "ん",
+      "し",
+      "ゅ",
+      "う"
+    ],
+    "romaji": "renshuu",
+    "japanese": "れんしゅう",
+    "audioUri": "lt-pair-29-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-29-b"]
+  },
+  {
+    "id": "lt-pair-29-b",
+    "hiragana": [
+      "れ",
+      "し",
+      "ゅ",
+      "う"
+    ],
+    "romaji": "reshuu",
+    "japanese": "れしゅう",
+    "audioUri": "lt-pair-29-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-29-a"]
+  },
+  {
+    "id": "lt-pair-30-a",
+    "hiragana": [
+      "か",
+      "ん",
+      "じ"
+    ],
+    "romaji": "kanji",
+    "japanese": "かんじ",
+    "audioUri": "lt-pair-30-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-30-b"]
+  },
+  {
+    "id": "lt-pair-30-b",
+    "hiragana": [
+      "か",
+      "じ"
+    ],
+    "romaji": "kaji",
+    "japanese": "かじ",
+    "audioUri": "lt-pair-30-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-30-a"]
+  },
+  {
+    "id": "lt-pair-31-a",
+    "hiragana": [
+      "さ",
+      "む",
+      "い"
+    ],
+    "romaji": "samui",
+    "japanese": "さむい",
+    "audioUri": "lt-pair-31-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-31-b"]
+  },
+  {
+    "id": "lt-pair-31-b",
+    "hiragana": [
+      "さ",
+      "び",
+      "い"
+    ],
+    "romaji": "sabii",
+    "japanese": "さびい",
+    "audioUri": "lt-pair-31-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-31-a"]
+  },
+  {
+    "id": "lt-pair-32-a",
+    "hiragana": [
+      "あ",
+      "つ",
+      "い"
+    ],
+    "romaji": "atsui",
+    "japanese": "あつい",
+    "audioUri": "lt-pair-32-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-32-b"]
+  },
+  {
+    "id": "lt-pair-32-b",
+    "hiragana": [
+      "あ",
+      "づ",
+      "い"
+    ],
+    "romaji": "adzui",
+    "japanese": "あづい",
+    "audioUri": "lt-pair-32-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-32-a"]
+  },
+  {
+    "id": "lt-pair-33-a",
+    "hiragana": [
+      "す",
+      "ず",
+      "し",
+      "い"
+    ],
+    "romaji": "suzushii",
+    "japanese": "すずしい",
+    "audioUri": "lt-pair-33-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-33-b"]
+  },
+  {
+    "id": "lt-pair-33-b",
+    "hiragana": [
+      "す",
+      "す",
+      "し",
+      "い"
+    ],
+    "romaji": "susushii",
+    "japanese": "すすしい",
+    "audioUri": "lt-pair-33-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-33-a"]
+  },
+  {
+    "id": "lt-pair-34-a",
+    "hiragana": [
+      "あ",
+      "た",
+      "ら",
+      "し",
+      "い"
+    ],
+    "romaji": "atarashii",
+    "japanese": "あたらしい",
+    "audioUri": "lt-pair-34-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-34-b"]
+  },
+  {
+    "id": "lt-pair-34-b",
+    "hiragana": [
+      "あ",
+      "た",
+      "ら",
+      "じ",
+      "い"
+    ],
+    "romaji": "atarajii",
+    "japanese": "あたらじい",
+    "audioUri": "lt-pair-34-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-34-a"]
+  },
+  {
+    "id": "lt-pair-35-a",
+    "hiragana": [
+      "ふ",
+      "る",
+      "い"
+    ],
+    "romaji": "furui",
+    "japanese": "ふるい",
+    "audioUri": "lt-pair-35-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-35-b"]
+  },
+  {
+    "id": "lt-pair-35-b",
+    "hiragana": [
+      "ぶ",
+      "る",
+      "い"
+    ],
+    "romaji": "burui",
+    "japanese": "ぶるい",
+    "audioUri": "lt-pair-35-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-35-a"]
+  },
+  {
+    "id": "lt-pair-36-a",
+    "hiragana": [
+      "た",
+      "か",
+      "い"
+    ],
+    "romaji": "takai",
+    "japanese": "たかい",
+    "audioUri": "lt-pair-36-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-36-b"]
+  },
+  {
+    "id": "lt-pair-36-b",
+    "hiragana": [
+      "た",
+      "が",
+      "い"
+    ],
+    "romaji": "tagai",
+    "japanese": "たがい",
+    "audioUri": "lt-pair-36-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-36-a"]
+  },
+  {
+    "id": "lt-pair-37-a",
+    "hiragana": [
+      "や",
+      "す",
+      "い"
+    ],
+    "romaji": "yasui",
+    "japanese": "やすい",
+    "audioUri": "lt-pair-37-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-37-b"]
+  },
+  {
+    "id": "lt-pair-37-b",
+    "hiragana": [
+      "や",
+      "ず",
+      "い"
+    ],
+    "romaji": "yazui",
+    "japanese": "やずい",
+    "audioUri": "lt-pair-37-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-37-a"]
+  },
+  {
+    "id": "lt-pair-38-a",
+    "hiragana": [
+      "お",
+      "お",
+      "き",
+      "い"
+    ],
+    "romaji": "ookii",
+    "japanese": "おおきい",
+    "audioUri": "lt-pair-38-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-38-b"]
+  },
+  {
+    "id": "lt-pair-38-b",
+    "hiragana": [
+      "お",
+      "き",
+      "い"
+    ],
+    "romaji": "okii",
+    "japanese": "おきい",
+    "audioUri": "lt-pair-38-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-38-a"]
+  },
+  {
+    "id": "lt-pair-39-a",
+    "hiragana": [
+      "ち",
+      "い",
+      "さ",
+      "い"
+    ],
+    "romaji": "chiisai",
+    "japanese": "ちいさい",
+    "audioUri": "lt-pair-39-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-39-b"]
+  },
+  {
+    "id": "lt-pair-39-b",
+    "hiragana": [
+      "ち",
+      "さ",
+      "い"
+    ],
+    "romaji": "chisai",
+    "japanese": "ちさい",
+    "audioUri": "lt-pair-39-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-39-a"]
+  },
+  {
+    "id": "lt-pair-40-a",
+    "hiragana": [
+      "な",
+      "が",
+      "い"
+    ],
+    "romaji": "nagai",
+    "japanese": "ながい",
+    "audioUri": "lt-pair-40-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-40-b"]
+  },
+  {
+    "id": "lt-pair-40-b",
+    "hiragana": [
+      "な",
+      "か",
+      "い"
+    ],
+    "romaji": "nakai",
+    "japanese": "なかい",
+    "audioUri": "lt-pair-40-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-40-a"]
+  },
+  {
+    "id": "lt-pair-41-a",
+    "hiragana": [
+      "み",
+      "じ",
+      "か",
+      "い"
+    ],
+    "romaji": "mijikai",
+    "japanese": "みじかい",
+    "audioUri": "lt-pair-41-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-41-b"]
+  },
+  {
+    "id": "lt-pair-41-b",
+    "hiragana": [
+      "み",
+      "ぢ",
+      "か",
+      "い"
+    ],
+    "romaji": "midikai",
+    "japanese": "みぢかい",
+    "audioUri": "lt-pair-41-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-41-a"]
+  },
+  {
+    "id": "lt-pair-42-a",
+    "hiragana": [
+      "ひ",
+      "ろ",
+      "い"
+    ],
+    "romaji": "hiroi",
+    "japanese": "ひろい",
+    "audioUri": "lt-pair-42-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-42-b"]
+  },
+  {
+    "id": "lt-pair-42-b",
+    "hiragana": [
+      "び",
+      "ろ",
+      "い"
+    ],
+    "romaji": "biroi",
+    "japanese": "びろい",
+    "audioUri": "lt-pair-42-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-42-a"]
+  },
+  {
+    "id": "lt-pair-43-a",
+    "hiragana": [
+      "せ",
+      "ま",
+      "い"
+    ],
+    "romaji": "semai",
+    "japanese": "せまい",
+    "audioUri": "lt-pair-43-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-43-b"]
+  },
+  {
+    "id": "lt-pair-43-b",
+    "hiragana": [
+      "ぜ",
+      "ま",
+      "い"
+    ],
+    "romaji": "zemai",
+    "japanese": "ぜまい",
+    "audioUri": "lt-pair-43-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-43-a"]
+  },
+  {
+    "id": "lt-pair-44-a",
+    "hiragana": [
+      "は",
+      "や",
+      "い"
+    ],
+    "romaji": "hayai",
+    "japanese": "はやい",
+    "audioUri": "lt-pair-44-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-44-b"]
+  },
+  {
+    "id": "lt-pair-44-b",
+    "hiragana": [
+      "ば",
+      "や",
+      "い"
+    ],
+    "romaji": "bayai",
+    "japanese": "ばやい",
+    "audioUri": "lt-pair-44-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-44-a"]
+  },
+  {
+    "id": "lt-pair-45-a",
+    "hiragana": [
+      "お",
+      "そ",
+      "い"
+    ],
+    "romaji": "osoi",
+    "japanese": "おそい",
+    "audioUri": "lt-pair-45-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-45-b"]
+  },
+  {
+    "id": "lt-pair-45-b",
+    "hiragana": [
+      "お",
+      "ぞ",
+      "い"
+    ],
+    "romaji": "ozoi",
+    "japanese": "おぞい",
+    "audioUri": "lt-pair-45-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-45-a"]
+  },
+  {
+    "id": "lt-pair-46-a",
+    "hiragana": [
+      "つ",
+      "よ",
+      "い"
+    ],
+    "romaji": "tsuyoi",
+    "japanese": "つよい",
+    "audioUri": "lt-pair-46-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-46-b"]
+  },
+  {
+    "id": "lt-pair-46-b",
+    "hiragana": [
+      "づ",
+      "よ",
+      "い"
+    ],
+    "romaji": "dzuyoi",
+    "japanese": "づよい",
+    "audioUri": "lt-pair-46-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-46-a"]
+  },
+  {
+    "id": "lt-pair-47-a",
+    "hiragana": [
+      "よ",
+      "わ",
+      "い"
+    ],
+    "romaji": "yowai",
+    "japanese": "よわい",
+    "audioUri": "lt-pair-47-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-47-b"]
+  },
+  {
+    "id": "lt-pair-47-b",
+    "hiragana": [
+      "よ",
+      "ば",
+      "い"
+    ],
+    "romaji": "yobai",
+    "japanese": "よばい",
+    "audioUri": "lt-pair-47-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-47-a"]
+  },
+  {
+    "id": "lt-pair-48-a",
+    "hiragana": [
+      "あ",
+      "か",
+      "る",
+      "い"
+    ],
+    "romaji": "akarui",
+    "japanese": "あかるい",
+    "audioUri": "lt-pair-48-a.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-48-b"]
+  },
+  {
+    "id": "lt-pair-48-b",
+    "hiragana": [
+      "あ",
+      "が",
+      "る",
+      "い"
+    ],
+    "romaji": "agarui",
+    "japanese": "あがるい",
+    "audioUri": "lt-pair-48-b.mp3",
+    "difficulty": 2,
+    "similar": ["lt-pair-48-a"]
+  },
+  {
+    "id": "lt-pair-49-a",
+    "hiragana": [
+      "く",
+      "ら",
+      "い"
+    ],
+    "romaji": "kurai",
+    "japanese": "くらい",
+    "audioUri": "lt-pair-49-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-49-b"]
+  },
+  {
+    "id": "lt-pair-49-b",
+    "hiragana": [
+      "ぐ",
+      "ら",
+      "い"
+    ],
+    "romaji": "gurai",
+    "japanese": "ぐらい",
+    "audioUri": "lt-pair-49-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-49-a"]
+  },
+  {
+    "id": "lt-pair-50-a",
+    "hiragana": [
+      "す",
+      "き"
+    ],
+    "romaji": "suki",
+    "japanese": "すき",
+    "audioUri": "lt-pair-50-a.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-50-b"]
+  },
+  {
+    "id": "lt-pair-50-b",
+    "hiragana": [
+      "す",
+      "ぎ"
+    ],
+    "romaji": "sugi",
+    "japanese": "すぎ",
+    "audioUri": "lt-pair-50-b.mp3",
+    "difficulty": 1,
+    "similar": ["lt-pair-50-a"]
   }
 ]

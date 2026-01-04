@@ -3,8 +3,11 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { useRouter } from 'solito/router'
 import { useRunStore } from '../store/use-run-store'
 import { AudioPuzzle } from '../audio/audio-puzzle'
+import { LengthTrapPuzzle } from '../length-trap/length-trap-puzzle'
 import { HPDisplay } from '../shared/components/hp-display'
 import { CoinDisplay } from '../shared/components/coin-display'
+import { PuzzleTimeline } from '../shared/components/puzzle-timeline'
+import { AnimatedGradientBackground } from '../shared/components/animated-gradient-background'
 import { theme } from '../theme'
 
 export function RunScreen() {
@@ -17,6 +20,8 @@ export function RunScreen() {
     inRun,
     correctAnswer,
     wrongAnswer,
+    puzzleSequence,
+    currentPuzzleType,
   } = useRunStore()
 
   // Redirect to home if not in a run
@@ -26,7 +31,7 @@ export function RunScreen() {
     }
   }, [inRun, router])
 
-  if (!currentWord) {
+  if (!currentWord || !currentPuzzleType) {
     return null
   }
 
@@ -41,34 +46,48 @@ export function RunScreen() {
   }
 
   return (
-    <ScrollView
-      style={styles.container}
-      contentContainerStyle={styles.contentContainer}
-    >
-      <View style={styles.header}>
-        <HPDisplay hp={hp} />
-        <CoinDisplay coins={coins} />
-      </View>
+    <AnimatedGradientBackground>
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={styles.contentContainer}
+      >
+        <View style={styles.header}>
+          <HPDisplay hp={hp} />
+          <CoinDisplay coins={coins} />
+        </View>
 
-      <View style={styles.puzzleInfo}>
-        <Text style={styles.puzzleNumber}>Puzzle {puzzleIndex + 1}</Text>
-      </View>
-
-      <View style={styles.puzzleContainer}>
-        <AudioPuzzle
-          word={currentWord}
-          onCorrect={handleCorrect}
-          onWrong={handleWrong}
+        <PuzzleTimeline 
+          puzzleSequence={puzzleSequence}
+          currentIndex={puzzleIndex}
         />
-      </View>
-    </ScrollView>
+
+        <View style={styles.puzzleInfo}>
+          <Text style={styles.puzzleNumber}>Puzzle {puzzleIndex + 1}</Text>
+        </View>
+
+        <View style={styles.puzzleContainer}>
+          {currentPuzzleType === 'audio' ? (
+            <AudioPuzzle
+              word={currentWord}
+              onCorrect={handleCorrect}
+              onWrong={handleWrong}
+            />
+          ) : (
+            <LengthTrapPuzzle
+              word={currentWord}
+              onCorrect={handleCorrect}
+              onWrong={handleWrong}
+            />
+          )}
+        </View>
+      </ScrollView>
+    </AnimatedGradientBackground>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.colors.background,
   },
   contentContainer: {
     padding: theme.spacing.lg,
@@ -87,6 +106,9 @@ const styles = StyleSheet.create({
     fontSize: theme.fontSize.lg,
     fontWeight: '700',
     color: theme.colors.text,
+    textShadowColor: 'rgba(255, 255, 255, 0.8)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 3,
   },
   puzzleContainer: {
     width: '100%',

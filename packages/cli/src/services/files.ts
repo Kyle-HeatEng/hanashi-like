@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir, readdir, unlink } from 'fs/promises'
 import { existsSync } from 'fs'
 import { join } from 'path'
 import { PATHS } from '../utils/paths'
-import type { Word } from '../../../packages/app/features/game/types'
+import type { Word } from '../../../app/features/puzzles/types'
 
 /**
  * Read words.json and return parsed Word array

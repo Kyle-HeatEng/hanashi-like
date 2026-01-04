@@ -8,7 +8,7 @@ import {
   regenerateAudioAssets,
   getExistingAudioFilenames,
 } from '../services/files'
-import type { Word } from '../../../packages/app/features/game/types'
+import type { Word } from '../../../app/features/puzzles/types'
 
 export async function migrateWords(): Promise<void> {
   console.log('Starting migration to UUID-based IDs...\n')
