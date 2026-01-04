@@ -1,5 +1,5 @@
 import { TouchableOpacity, Text, ActivityIndicator, StyleSheet } from 'react-native'
-import { theme } from '../../theme'
+import { theme } from '../../../theme'
 
 interface ButtonProps {
   onPress: () => void

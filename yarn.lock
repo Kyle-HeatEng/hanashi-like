@@ -3667,8 +3667,13 @@ __metadata:
     "@react-navigation/native": "npm:^7.0.15"
     "@react-navigation/native-stack": "npm:^7.2.1"
     dripsy: "npm:^4.3.3"
+    expo-document-picker: "npm:^14.0.8"
+    expo-file-system: "npm:^19.0.21"
+    expo-sqlite: "npm:^16.0.10"
     moti: "npm:^0.30.0"
+    react-native-zip-archive: "npm:^7.0.2"
     solito: "npm:next"
+    wanakana: "npm:^5.3.1"
     zustand: "npm:^5.0.2"
   languageName: unknown
   linkType: soft
@@ -3855,6 +3860,13 @@ __metadata:
   dependencies:
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 10/6c9da3a66caddd83c875010a1ca8ef11eac02ba15fb592dc9418b2b5e7b77b645fa7729380a92d9835c2f05f2ca1b6251f39b993e0feb3f1517c74fa1af02cab
+  languageName: node
+  linkType: hard
+
+"await-lock@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "await-lock@npm:2.2.2"
+  checksum: 10/feb11f36768a8545879ed2d214b46aae484e6564ffa466af9212d5782897203770795cae01f813de04a46f66c0b8ee6bc690a0c435b04e00cad5a18ef0842e25
   languageName: node
   linkType: hard
 
@@ -5575,10 +5587,13 @@ __metadata:
     expo: "npm:^54.0.16"
     expo-asset: "npm:^12.0.11"
     expo-av: "npm:~15.0.1"
+    expo-document-picker: "npm:^14.0.8"
+    expo-file-system: "npm:^19.0.21"
     expo-image: "npm:~3.0.10"
     expo-linear-gradient: "npm:~15.0.7"
     expo-linking: "npm:~8.0.8"
     expo-splash-screen: "npm:~31.0.10"
+    expo-sqlite: "npm:^16.0.10"
     expo-status-bar: "npm:~3.0.8"
     moti: "npm:^0.30.0"
     react-compiler-runtime: "npm:19.0.0-beta-3229e95-20250315"
@@ -5588,7 +5603,9 @@ __metadata:
     react-native-safe-area-context: "npm:~5.6.0"
     react-native-screens: "npm:~4.16.0"
     react-native-worklets: "npm:0.5.1"
+    react-native-zip-archive: "npm:^7.0.2"
     typescript: "npm:~5.9.2"
+    wanakana: "npm:^5.3.1"
   languageName: unknown
   linkType: soft
 
@@ -5658,6 +5675,25 @@ __metadata:
     expo: "*"
     react-native: "*"
   checksum: 10/500ff0b0929a4cba7f114ea99bbe5e42ea18b9ea37d39f6be1c626fa702c35a9b386b620b72e51c3c9e8e7d44c2a3377dd4810dbf98ac96333d1d9c0967bedd9
+  languageName: node
+  linkType: hard
+
+"expo-document-picker@npm:^14.0.8":
+  version: 14.0.8
+  resolution: "expo-document-picker@npm:14.0.8"
+  peerDependencies:
+    expo: "*"
+  checksum: 10/6bc2a41a87c840ac13d9bc872f5838e396b90eaeeeddcee19e88ca62614ec57c3517ab1f5725d4efc43470760e9c6b7035e7d35d6c600d246771a0cee93a45b1
+  languageName: node
+  linkType: hard
+
+"expo-file-system@npm:^19.0.21":
+  version: 19.0.21
+  resolution: "expo-file-system@npm:19.0.21"
+  peerDependencies:
+    expo: "*"
+    react-native: "*"
+  checksum: 10/00a2f13f8139724016f8b811303dd4a4070a315f80ee9e1877bcfd00773b38caafe4f1d3d7d4a87777e4ff53ba645aae0b4430e875f9ee5f277b88372b507811
   languageName: node
   linkType: hard
 
@@ -5776,6 +5812,19 @@ __metadata:
   peerDependencies:
     expo: "*"
   checksum: 10/19a36272a6a825848183de9d15648927518814184a758070a03c25f4cbe3a7e5c4e31f7026c6ff5677b98f6bee58f19c3b61319040a9fc1441a2ba6277ac6a14
+  languageName: node
+  linkType: hard
+
+"expo-sqlite@npm:^16.0.10":
+  version: 16.0.10
+  resolution: "expo-sqlite@npm:16.0.10"
+  dependencies:
+    await-lock: "npm:^2.2.2"
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10/84057f4b4c04995f1464329ef8a9521859a38f8e608277081891de6f9b4c4d094310ac2e5a583ed02a1ac5414d0f55599987aa0abbdf99200126506735a386c0
   languageName: node
   linkType: hard
 
@@ -9367,6 +9416,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-zip-archive@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "react-native-zip-archive@npm:7.0.2"
+  peerDependencies:
+    react: ">=16.8.6"
+    react-native: ">=0.60.0"
+  checksum: 10/63a0bc5e946d84a9564ac1fd0319fa01b8a0af72d841007db41b374254e6dbc5d38d28aea43703c6f5458c72742c9cc8e7d7fc17cee6717da0ab106da71fe35f
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.81.4":
   version: 0.81.4
   resolution: "react-native@npm:0.81.4"
@@ -11248,6 +11307,13 @@ __metadata:
   dependencies:
     makeerror: "npm:1.0.12"
   checksum: 10/ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
+  languageName: node
+  linkType: hard
+
+"wanakana@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "wanakana@npm:5.3.1"
+  checksum: 10/401c46ac51135d7a97315750af1b95cf7e1a8c6612b28c9c26d86983f967ca5f2c59def77a6ccfa85028dae383a92b4897c905b581cceb1f22928f4986d8db6c
   languageName: node
   linkType: hard
 

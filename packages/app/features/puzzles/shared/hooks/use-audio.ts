@@ -11,6 +11,19 @@ export interface UseAudioReturn {
   error: Error | null
 }
 
+// Configure audio mode once when the module loads
+// This ensures audio plays even when device is in silent mode
+if (Platform.OS !== 'web') {
+  Audio.setAudioModeAsync({
+    allowsRecordingIOS: false,
+    playsInSilentModeIOS: true, // This is the key setting!
+    staysActiveInBackground: false,
+    shouldDuckAndroid: true,
+  }).catch((err) => {
+    console.warn('Failed to set audio mode:', err)
+  })
+}
+
 export function useAudio(audioUri: string | null): UseAudioReturn {
   const [sound, setSound] = useState<Audio.Sound | null>(null)
   const [isPlaying, setIsPlaying] = useState(false)

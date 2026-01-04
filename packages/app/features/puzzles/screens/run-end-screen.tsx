@@ -1,26 +1,13 @@
-import { useEffect } from 'react'
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { useRouter } from 'solito/router'
-import { useGameStore } from '../store/use-game-store'
-import { useMetaStore } from '../store/use-meta-store'
-import { Button } from '../components/ui/button'
-import { Card } from '../components/ui/card'
-import { AudioButton } from '../components/audio-button'
-import { getWordById } from '../data'
+import { useRunStore } from '../store/use-run-store'
+import { Button } from '../shared/components/ui/button'
+import { Card } from '../shared/components/ui/card'
 import { theme } from '../theme'
 
 export function RunEndScreen() {
   const router = useRouter()
-  const { puzzleIndex, mistakenWordId, runCoins, reset } = useGameStore()
-  const { updateBestRun, addCoins } = useMetaStore()
-
-  const mistakenWord = mistakenWordId ? getWordById(mistakenWordId) : null
-
-  useEffect(() => {
-    // Update meta data
-    updateBestRun(puzzleIndex)
-    addCoins(runCoins)
-  }, [puzzleIndex, runCoins, updateBestRun, addCoins])
+  const { puzzleIndex, coins, reset } = useRunStore()
 
   const handleNewRun = () => {
     reset()
@@ -44,29 +31,15 @@ export function RunEndScreen() {
         </View>
         <View style={styles.stat}>
           <Text style={styles.statLabel}>Coins Earned</Text>
-          <Text style={styles.statValue}>🪙 {runCoins}</Text>
+          <Text style={styles.statValue}>🪙 {coins}</Text>
         </View>
       </Card>
 
-      {mistakenWord && (
-        <Card style={styles.mistakeCard}>
-          <Text style={styles.mistakeTitle}>Mistaken Word</Text>
-          <View style={styles.wordDisplay}>
-            <View style={styles.hiraganaContainer}>
-              {mistakenWord.hiragana.map((char, index) => (
-                <Text key={index} style={styles.hiragana}>
-                  {char}
-                </Text>
-              ))}
-            </View>
-            <Text style={styles.romaji}>{mistakenWord.romaji}</Text>
-          </View>
-          <AudioButton
-            audioUri={mistakenWord.audioUri}
-            label="Replay Audio"
-          />
-        </Card>
-      )}
+      <Card style={styles.messageCard}>
+        <Text style={styles.message}>
+          Keep practicing to improve your Japanese listening skills!
+        </Text>
+      </Card>
 
       <Button
         title="New Run"
@@ -86,6 +59,8 @@ const styles = StyleSheet.create({
   contentContainer: {
     padding: theme.spacing.lg,
     gap: theme.spacing.xl,
+    minHeight: '100%',
+    justifyContent: 'center',
   },
   header: {
     alignItems: 'center',
@@ -120,35 +95,15 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: theme.colors.text,
   },
-  mistakeCard: {
+  messageCard: {
     alignItems: 'center',
-    gap: theme.spacing.md,
     padding: theme.spacing.lg,
   },
-  mistakeTitle: {
-    fontSize: theme.fontSize.lg,
-    fontWeight: '700',
-    color: theme.colors.error,
-  },
-  wordDisplay: {
-    alignItems: 'center',
-    gap: theme.spacing.sm,
-  },
-  hiraganaContainer: {
-    flexDirection: 'row',
-    gap: theme.spacing.sm,
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-  },
-  hiragana: {
-    fontSize: theme.fontSize.xxl,
-    fontWeight: '700',
+  message: {
+    fontSize: theme.fontSize.md,
     color: theme.colors.text,
-  },
-  romaji: {
-    fontSize: theme.fontSize.lg,
-    color: theme.colors.text,
-    opacity: 0.7,
+    textAlign: 'center',
+    lineHeight: 24,
   },
 })
 

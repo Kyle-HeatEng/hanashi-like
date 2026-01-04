@@ -1,14 +1,12 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import { GameHomeScreen } from 'app/features/game/screens/home-screen'
-import { RunScreen } from 'app/features/game/screens/run-screen'
-import { ShopScreen } from 'app/features/game/screens/shop-screen'
-import { RunEndScreen } from 'app/features/game/screens/run-end-screen'
+import { HomeScreen } from 'app/features/puzzles/screens/home-screen'
+import { RunScreen } from 'app/features/puzzles/screens/run-screen'
+import { RunEndScreen } from 'app/features/puzzles/screens/run-end-screen'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
   run: undefined
-  shop: undefined
   'run-end': undefined
 }>()
 
@@ -17,7 +15,7 @@ export function NativeNavigation() {
     <Stack.Navigator>
       <Stack.Screen
         name="home"
-        component={GameHomeScreen}
+        component={HomeScreen}
         options={{
           title: 'Home',
           headerShown: false,
@@ -28,14 +26,6 @@ export function NativeNavigation() {
         component={RunScreen}
         options={{
           title: 'Run',
-          headerShown: false,
-        }}
-      />
-      <Stack.Screen
-        name="shop"
-        component={ShopScreen}
-        options={{
-          title: 'Shop',
           headerShown: false,
         }}
       />
